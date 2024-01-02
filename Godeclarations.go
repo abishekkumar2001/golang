@@ -1,7 +1,7 @@
 package main
 import "fmt"
 
-gitvar value=100
+var value=100
 
 func main(){
 	//Using var keyword and datatype
@@ -25,16 +25,6 @@ func main(){
 	//multiple declarations
 	var fruit1,fruit2,fruit3 string="Apple","Orange","Grapes"
 	fmt.Println(fruit1)
-        fmt.Println(fruit2)
+    fmt.Println(fruit2)
 	fmt.Println(fruit3)
 }
-<<<<<<< HEAD
-=======
-
-
-
-
-
-
-
->>>>>>> 265cfb8 (Declarations in Go)
