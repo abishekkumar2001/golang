@@ -25,7 +25,7 @@ func main(){
 	fmt.Scan(&name1)
 	fmt.Println("Name of First person is",name1)
 	fmt.Print("Enter the name of second person : ")
-	fmt.Scan(&name2)
+	fmt.Scan(&name2) 
 	fmt.Println("Name of Second person is",name2)
 
 	//Getting Array as Input from user
