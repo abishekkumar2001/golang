@@ -1,7 +1,7 @@
 package main
 import "fmt"
 
-var value=100
+gitvar value=100
 
 func main(){
 	//Using var keyword and datatype
@@ -28,3 +28,13 @@ func main(){
         fmt.Println(fruit2)
 	fmt.Println(fruit3)
 }
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+>>>>>>> 265cfb8 (Declarations in Go)
