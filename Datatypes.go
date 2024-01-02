@@ -23,7 +23,7 @@ func main(){
 	//String
 	fmt.Println("4.String")
 	var name string //variable declaration
-	name="Steve" //variable declaration
+	name="Steve" //variable Initialization
 	fmt.Println("The name is",name)
 
 }
