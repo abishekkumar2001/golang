@@ -4,6 +4,7 @@ import "fmt"
 var value=100
 
 func main(){
+
 	//Using var keyword and datatype
 	fmt.Println("Using var keyword and type")
 	var a int =5
@@ -25,6 +26,6 @@ func main(){
 	//multiple declarations
 	var fruit1,fruit2,fruit3 string="Apple","Orange","Grapes"
 	fmt.Println(fruit1)
-        fmt.Println(fruit2)
+    fmt.Println(fruit2)
 	fmt.Println(fruit3)
 }
