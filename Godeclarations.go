@@ -26,6 +26,6 @@ func main(){
 	//multiple declarations
 	var fruit1,fruit2,fruit3 string="Apple","Orange","Grapes"
 	fmt.Println(fruit1)
-    fmt.Println(fruit2)
+        fmt.Println(fruit2)
 	fmt.Println(fruit3)
 }
