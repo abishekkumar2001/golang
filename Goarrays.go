@@ -68,4 +68,25 @@ func main(){
 	marks:=[]int{60,70,80,90,100}
 	fmt.Println(len(car))
 	fmt.Println(len(marks))
+
+	//Getting array as input from user
+	var n int;
+	fmt.Println("Enter the size of the array")
+	fmt.Scanln(&n)
+	
+	a3 := make([]int,n)
+
+	fmt.Println("Enter the elements of the array...")
+	for i=0; i<n; i++{
+		fmt.Printf("Enter the element at index %d ",i)
+		fmt.Scanf("%d",&a3[i])
+	}
+
+	fmt.Println("The Elements of the array are...")
+
+	for i=0; i<n; i++{
+		fmt.Printf("%d\t",a3[i])
+	}
+
+	fmt.Println("a3 is ",a3)
 }
