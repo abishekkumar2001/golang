@@ -25,8 +25,8 @@ func main() {
 	fmt.Printf("The value of a is %v and b is %v\n", a, b)
 
 	//Getting String as Input from user
-	var name1, name2 string
-	fmt.Println("Enter the name of first person :")
+	var name1,name2 string
+	fmt.Println("Enter the name of first person :") 
 	reader := bufio.NewReader(os.Stdin)
 	name1, _ = reader.ReadString('\n')
 
@@ -38,7 +38,7 @@ func main() {
 	reader = bufio.NewReader(os.Stdin)
 	name2, _ = reader.ReadString('\n')
 
-	fmt.Println("Name of Second person is", name2)
+	fmt.Println("Name of Second person is",name2)
 
 	//Getting Array as Input from user
 	var n, i int
