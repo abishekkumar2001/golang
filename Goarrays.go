@@ -6,7 +6,7 @@ func main(){
 
 	//Array declaration using var keyword and length
 	var arr1 = [5]int{5,10,15,20,25}
-	//Array declaration using var keyword without length
+	//Array declaration using var keyword without length 
 	var arr2 = []string{"Apple","Orange","Grapes"}
 	//Array declaration using := sign and length
 	arr3 := [4]float32{1.1,2.2,3.3,4.4}
