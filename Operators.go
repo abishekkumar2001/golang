@@ -8,7 +8,7 @@ func main() {
 	fmt.Println("The sum is", a+b)
 	fmt.Println("The difference is", a-b)
 	fmt.Println("The product is", a*b)
-	fmt.Println("The quotient is", a/b)
+	fmt.Println("The quotient is", a/b) 
 	fmt.Println("The remainder is", a%b)
 	a++
 	fmt.Println("The value after incrementing is", a)
