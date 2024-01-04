@@ -1,7 +1,9 @@
 package main
+
 import "fmt"
 
 func main(){
+
 	//Array declaration using var keyword and length
 	var arr1 = [5]int{5,10,15,20,25}
 	//Array declaration using var keyword without length
@@ -14,6 +16,19 @@ func main(){
 	fmt.Println(arr2)
 	fmt.Println(arr3)
 	fmt.Println(arr4)
+
+	//Printing the elements of the array using println method
+	fmt.Println("The elements of the first array are")
+	var i int
+	for i=0; i<len(arr1); i++{
+		fmt.Println(arr1[i])
+	}
+
+	//Printing the elements of the array using printf function
+	fmt.Println("The elements of the second array are")
+	for i:=0; i<len(arr4); i++{
+		fmt.Printf("%d",arr4[i]) //Printf and scanf have similar syntax as in c
+	}
 
 	//Accessing the elements of the array
 	fmt.Println(arr1[2]) // It will print the element at index 2 of arr1
