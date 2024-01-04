@@ -94,4 +94,15 @@ func main() {
 	n2 := make([]int,len(n1))
 	copy(n2,n1)
 	fmt.Println(n2)
+
+	//Range in Go 
+	var fruits = []string{"Apple","Orange","Banana","Guava","Grapes"}
+	for idx, val := range fruits{
+		fmt.Printf("%v %v\n",idx,val)
+	}
+
+	//Range without pinting index value 
+	for _, val := range fruits{
+		fmt.Printf("%v\n",val)
+	}
 }
