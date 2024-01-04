@@ -12,7 +12,7 @@ func main(){
 	arr3 := [4]float32{1.1,2.2,3.3,4.4}
 	//Array declaration using := sign without length
 	arr4 := []int{11,21,31,41,51}
-	fmt.Println(arr1)
+	fmt.Println(arr1) 
 	fmt.Println(arr2)
 	fmt.Println(arr3)
 	fmt.Println(arr4)
