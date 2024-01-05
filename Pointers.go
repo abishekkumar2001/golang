@@ -37,7 +37,7 @@ func main() {
 	fmt.Println("The value of b is : ", b)
 }
 
-// Can also write like func swap(a1,b1 *int)
+//we can also write like func swap(a1,b1 *int)
 func swap(a1 *int, b1 *int) { // func swap(argument 1, argument 2)(return type)
 	*a1, *b1 = *b1, *a1
 }
