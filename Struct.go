@@ -56,6 +56,19 @@ func main() {
 	emp1.salary = 50000
 	emp1.job = "Junior Software Engineer"
 
+	/*Can also be defined like
+	  
+	  var emp1 employee
+	  var emp1 = employee{"Sachin Tendulkar",25,50000,"Junior Software Engineer"}
+
+	  var emp2 employee
+	  var emp2 = employee{name = "Sachin Tendulkar",
+	   age = 25,
+	   salary = 50000,
+	   job = "Junior Software Engineer"
+	 }
+	*/
+
 	//Details of second employee
 	emp2.name = "Rohit Sharma"
 	emp2.age = 32
