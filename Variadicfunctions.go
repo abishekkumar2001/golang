@@ -27,4 +27,8 @@ func main() {
 	fmt.Println("The sum is ",a) //Sum function is called with three parameters
 
 	fmt.Println(sum(1020, 23)) //Sum function with two parameters
+
+	//Variadic function can be applied to slices
+	nums := []int{1,2,3,4,5}
+	fmt.Println(sum(nums...))
 }
