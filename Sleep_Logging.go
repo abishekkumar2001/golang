@@ -22,6 +22,7 @@ func main() {
 
 	logger.Println("This is an info message.")
 	//Printing messages using logger
+	
 	logger.Fatal("Fatal Error")
 	//Printing error messages using logger
 }
