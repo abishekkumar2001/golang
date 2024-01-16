@@ -31,7 +31,7 @@ func main() {
 	person2 := []Person{
 		{Name : "Sachin", Age : 27, Salary : 15000, Gender : "Male"},
 		{Name : "Sanjana", Age : 25, Salary : 13000, Gender : "Female"},
-		{Name : "Smitha", Age : 28, Salary : 17000, Gender : "Female"},
+		{Name : "Rithu", Age : 28, Salary : 17000, Gender : "Female"},
 		{Name : "Aravind", Age : 23, Salary : 13000, Gender : "Male"},
 	}
 
