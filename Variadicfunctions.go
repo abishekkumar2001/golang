@@ -4,7 +4,7 @@ import "fmt"
 
 //Variadic function
 
-//Can be used to pass variable number of parameters. It behaves like a slice
+//Can be used to pass variable number of parameters. It behaves like a slice 
 
 //Variadic function SYNTAX : func functionName(parameter...type)return type
 
