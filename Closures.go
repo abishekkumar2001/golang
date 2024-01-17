@@ -19,7 +19,7 @@ func main() {
 	//Function declared Outside main
 	age1 := age()
 	fmt.Println(age1())
-	fmt.Println(age1())cl
+	fmt.Println(age1())
 	fmt.Println(age1())
 
 	age2 := age()
